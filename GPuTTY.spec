@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2
 Group:		X11/Applications/Networking
 Source0:	ftp://ftp.defora.org/pub/projects/gputty/%{name}-%{version}.tar.gz
+# Source0-md5:	70674349468d0bdcdba1de32934ea912
 Source1:	%{name}.desktop
 Source2:	%{name}-pl.po
 Patch0:		%{name}-am_fix.patch
