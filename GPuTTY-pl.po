@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2002-08-22 15:47+0200\n"
+"PO-Revision-Date: 2003-02-05 13:37+0100\n"
+"Last-Translator: Paweł Gołaszewski <blues@ds.pg.gda.pl>\n"
+"Language-Team: polski <pl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: src/gputty.cpp:196
+msgid "GPuTTY Configuration"
+msgstr "Konfiguracja GPuTTY"
+
+#: src/gputty.cpp:198
+msgid "Specify your connection"
+msgstr "Określ połączenie"
+
+#: src/gputty.cpp:201
+msgid "Host Name"
+msgstr "Nazwa hosta"
+
+#: src/gputty.cpp:202
+msgid "Port"
+msgstr "Port"
+
+#: src/gputty.cpp:204
+msgid "Username"
+msgstr "Użytkownik"
+
+#: src/gputty.cpp:205
+msgid "Protocol"
+msgstr "Protokół"
+
+#: src/gputty.cpp:206
+msgid "Load, save or delete a session"
+msgstr "Ładowanie, zapis i usunięcie sesji"
+
+#: src/gputty.cpp:208
+msgid "Saved Sessions"
+msgstr "Zapisane sesje"
+
+#: src/gputty.cpp:211
+msgid "Load"
+msgstr "Ładuj"
+
+#: src/gputty.cpp:212
+msgid "Save"
+msgstr "Zapisz"
+
+#: src/gputty.cpp:213
+msgid "Delete"
+msgstr "Usuń"
+
+#: src/gputty.cpp:215
+msgid "About"
+msgstr "O programie..."
+
+#: src/gputty.cpp:216
+msgid "Connect"
+msgstr "Połącz"
+
+#: src/gputty.cpp:217
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: src/gputty.cpp:246
+msgid "Telnet"
+msgstr "Telnet"
+
+#: src/gputty.cpp:247
+msgid "SSH"
+msgstr "SSH"
+
+#. open file for writing
+#: src/gputty.cpp:319
+msgid "Updating config file: "
+msgstr "Aktualizacja plików konfiguracyjnych: "
+
+#: src/gputty.cpp:322
+msgid "failure.\n"
+msgstr "błąd \n"
+
+#: src/gputty.cpp:357
+msgid "success.\n"
+msgstr "sukces.\n"
+

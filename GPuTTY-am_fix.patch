@@ -1,0 +1,8 @@
+--- ./src/Makefile.am.org	Wed Aug 21 15:30:07 2002
++++ ./src/Makefile.am	Wed Feb  5 12:42:58 2003
+@@ -1,4 +1,4 @@
+-CXXFLAGS += -Wall -g -O2
++CXXFLAGS = -Wall -g -O2
+ 
+ localedir='"$(datadir)/locale"'
+ INCLUDES = -DLOCALEDIR=$(localedir)\
