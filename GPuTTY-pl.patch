@@ -1,0 +1,11 @@
+--- ./configure.in.lng	Fri Aug 23 10:52:51 2002
++++ ./configure.in	Wed Feb  5 12:47:01 2003
+@@ -27,7 +27,7 @@
+ dnl GNOME_COMPILE_WARNINGS
+ dnl GNOME_XML_CHECK
+ 
+-ALL_LINGUAS="fr"
++ALL_LINGUAS="fr pl"
+ AM_GNU_GETTEXT
+ 
+ dnl Checks for header files.
