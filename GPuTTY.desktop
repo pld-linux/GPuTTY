@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=GPuTTY
 Comment=Remembers telnet and SSH sessions
-Comment[pl]=Zapamiêje sesje telnet i SSH
+Comment[pl]=Zapamiętuje sesje telnet i SSH
 Icon=GPuTTY.png
 Exec=gputty
 Terminal=false
