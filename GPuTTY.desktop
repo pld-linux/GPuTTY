@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GPuTTY
+Comment=Remembers telnet and SSH sessions
+Comment[pl]=Zapamiêje sesje telnet i SSH
+Icon=GPuTTY.png
+Exec=gputty
+Terminal=0
+Type=Application
+# vi: encoding=utf-8
