@@ -1,5 +1,5 @@
 Summary:	Remembers telnet and SSH sessions
-Summary(pl):	Zapamiêtuje sesje telnet i SSH
+Summary(pl):	Zapamiêtywanie sesji telnet i SSH
 Name:		GPuTTY
 Version:	0.9.4
 Release:	1
@@ -49,7 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install -D %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Network/Communications
+install -D %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Network/Communications/%{name}.desktop
 
 %find_lang %{name} --with-gnome
 
