@@ -9,6 +9,7 @@ Source0:	ftp://ftp.defora.org/pub/projects/gputty/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 URL:		http://www.defora.org/projects/gputty/
 BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gnome-libs-devel
 BuildRequires:	libgtkpp-devel
 Provides:	gputty
