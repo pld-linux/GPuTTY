@@ -7,9 +7,13 @@ License:	GPL v2
 Group:		X11/Applications/Networking
 Source0:	ftp://ftp.defora.org/pub/projects/gputty/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
+Source2:	%{name}-pl.po
+Patch0:		%{name}-am_fix.patch
+Patch1:		%{name}-pl.patch
 URL:		http://www.defora.org/projects/gputty/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	gettext-devel
 BuildRequires:	gnome-libs-devel
 BuildRequires:	libgtkpp-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -25,6 +29,9 @@ terminala.
 
 %prep
 %setup -q
+install %{SOURCE2} po/pl.po
+%patch0 -p1
+%patch1 -p1
 
 %build
 rm -f missing
