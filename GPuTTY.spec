@@ -20,11 +20,11 @@ BuildRequires:	libgtkpp-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-GPuTTY is a PuTTY clone using the Gnome environment. It can store and
+GPuTTY is a PuTTY clone using the GNOME environment. It can store and
 launch telnet and SSH sessions. It's not a terminal emulator.
 
 %description -l pl
-GPuTTY jest klonem PuTTY u¿ywaj±cym ¶rodowiska Gnome. Potrafi
+GPuTTY jest klonem PuTTY u¿ywaj±cym ¶rodowiska GNOME. Potrafi
 zapamiêtaæ o odpaliæ sesje telnet oraz SSH. Nie jest to emulator
 terminala.
 
