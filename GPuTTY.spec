@@ -60,4 +60,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/gputty
-%attr(644,root,root) %{_applnkdir}/Network/Communications/*
+%{_applnkdir}/Network/Communications/*
