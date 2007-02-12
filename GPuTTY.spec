@@ -1,5 +1,5 @@
 Summary:	Remembers telnet and SSH sessions
-Summary(pl):	Zapamiêtywanie sesji telnet i SSH
+Summary(pl.UTF-8):   ZapamiÄ™tywanie sesji telnet i SSH
 Name:		GPuTTY
 Version:	0.9.4
 Release:	1
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 GPuTTY is a PuTTY clone using the GNOME environment. It can store and
 launch telnet and SSH sessions. It's not a terminal emulator.
 
-%description -l pl
-GPuTTY jest klonem PuTTY u¿ywaj±cym ¶rodowiska GNOME. Potrafi
-zapamiêtaæ o odpaliæ sesje telnet oraz SSH. Nie jest to emulator
+%description -l pl.UTF-8
+GPuTTY jest klonem PuTTY uÅ¼ywajÄ…cym Å›rodowiska GNOME. Potrafi
+zapamiÄ™taÄ‡ o odpaliÄ‡ sesje telnet oraz SSH. Nie jest to emulator
 terminala.
 
 %prep
