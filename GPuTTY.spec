@@ -1,5 +1,5 @@
 Summary:	Remembers telnet and SSH sessions
-Summary(pl.UTF-8):   Zapamiętywanie sesji telnet i SSH
+Summary(pl.UTF-8):	Zapamiętywanie sesji telnet i SSH
 Name:		GPuTTY
 Version:	0.9.4
 Release:	1
