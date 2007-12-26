@@ -2,9 +2,8 @@
 Name=GPuTTY
 Comment=Remembers telnet and SSH sessions
 Comment[pl]=Zapamiętuje sesje telnet i SSH
-Icon=GPuTTY.png
+Icon=GPuTTY
 Exec=gputty
 Terminal=false
 Type=Application
-Encoding=UTF-8
 # vi: encoding=utf-8
