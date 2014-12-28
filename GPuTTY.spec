@@ -14,7 +14,7 @@ Patch1:		%{name}-pl.patch
 URL:		http://www.defora.org/projects/gputty/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gnome-libs-devel
 BuildRequires:	libgtkpp-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
